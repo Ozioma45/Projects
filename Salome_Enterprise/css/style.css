@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color:#048EBF;
+    color: #fff;
+    min-height: 40vh;
+}
+
+header p{
+    font-size: 1rem;
+}
+
+.course-intro{
+    margin-top: -2rem;
+}
+
+.aff-img1-cont{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.direction{
+    width: 12rem;
+    animation: moveUpDown 0.5s linear infinite;
+}
+
+.access {
+    background: linear-gradient(to right, red, rgb(196, 196, 63));
+    border: none;
+    width: 25rem;
+    height: 6rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.521);
+    transition: background 0.5s, box-shadow 0.5s, transform 0.5s;
+}
+
+.access:hover {
+    background: linear-gradient(to right, rgb(196, 196, 63), red);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.self-intro{
+    background-color: #048EBF;
+    min-height: 70vh;
+    margin-top: 5rem;
+}
+
+.arrow-down{
+    color: #fff;
+    font-size: 2rem;
+    background:#048EBF;
+    border-radius: 10px;
+    margin-top: -15px;
+    box-shadow: 2px 2px 5px rgb(77, 76, 76);
+}
+
+.introMes{
+    color: #fff;
+    background:#059ed686;
+}
+
+.introMes p{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.pro-img{
+    width: 15rem;
+}
+
+.quote{
+    font-size: 5rem;
+}
+
+.earnHead{
+    font-weight: 700;
+    color: rgb(59, 59, 59);
+}
+
+.pay{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.418);
+}
+
+.earnText{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.tAmt{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.mAmt{
+    color: rgb(58, 58, 58);
+    font-size: 1.3rem;
+}
+
+.otherPay h2{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+
+.otherPay>p{
+    font-size: 1.5rem;
+    color: #eeeeee;
+}
+
+.others-cont{
+    border-radius:15px;
+    background: #048EBF;
+}
+
+.opay{
+    height: 30rem;
+}
+
+.others1{
+    background:#059ed686;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.349);
+}
+
+.vid-Testimonial h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Yvid-cont{
+    border: 5px solid black;
+}
+
+.Yvid{
+    width: 100%;
+    height: 100%;
+}
+
+.yvid-sum .y-sum{
+    color: rgb(88, 88, 88);
+}
+
+.notice{
+    color: yellow;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+footer{
+    background: #048EBF;
+}
+
+footer p{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+@keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+  }
+
+@media screen and (max-width: 950px) {
+    header{
+        min-height: 20vh;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    header{
+        min-height: 30vh;
+    }
+
+    header h1{
+        font-size: 1.5rem;
+    }
+
+    .aff-img1-cont{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .aff-img1-cont .aff-img1{
+        width: 100%;
+    }
+
+    .quote{
+        font-size: 2rem;
+    }
+
+    .otherPay h2{
+        font-size: 1.5rem;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+  }
+
+  
+/* @media screen and (max-width: 380px) {
+    header{
+        min-height: 50vh;
+    }
+} */
